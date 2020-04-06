@@ -1,0 +1,410 @@
+# General Introduction {#generalIntroduction}
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+```{r out.width = "70%", fig.align = "center", fig.cap = "Trevally ($\\textit{Pseudocaranx georgianus}$) illustration by Leah Kemp."}
+library(knitr)
+knitr::include_graphics("../imagesFinal/04-generalIntroduction/trevallydrawing.png")
+```
+
+## *Pseudocaranx georgianus* {#generalIntroductionBiology}
+
+The Carangidae family is a large and diverse family of teleost fish which are globally important for commercial and recreational fishing [@Fishbase2018]. The family includes 30 genera of largely marine species such as trevallies, jacks, amberjacks, pompanos, scads, kingfish, pilotfish and queenfishes [@Jaafar2012]. The genus *Pseudocaranx* (Bleeker, 1863) includes the five species of trevallies [@Dyer2010; @Smith-Vaniz2006] that occupy an extensive range in temperate regions [@Smith-Vaniz2006]. The greatest number of described *Pseudocaranx* species occur in Australasia, where four of the five known species occur [@Smith-Vaniz2006]. 
+
+In New Zealand, the single species, *Pseudocaranx georgianus* (Cuvier, 1833) is known to occur (which also ranges into southern coastal Australian waters) and is distinguished from a similar species by meristic characters (fifteen caudal vertebrae) and morphological features including a blunt snout, a pronounced hump on the forehead and a large and diffuse opercular spot [@Smith-Vaniz2006]. This species is more commonly known as silver trevally, or by the Māori name Araara. *P. georgianus* is a commercially important fishery in Australasia [@Langley2004]. In New Zealand, over 4000 tonnes are allocated annually for commercial fishing [@MPI2018]. The species is also considered to be of high recreational and customary significance with 100 tonnes and one tonne annually allocated for recreational and customary use, respectively [@MPI2018]. The importance of inshore fin fish such as *P. georgianus* are reflected in the National Fisheries Plan which states that “They contribute to our cultural and social traditions, to our nation’s economy and to our sense of overall well-being”.
+
+*P. georgianus* is both a pelagic and demersal species [@MPI2018] occurring to a depth of 150 meters [@James1976]. Juvenile *P. georgianus* have a typical embryonic development for fish [@James1978] and occupy sheltered inshore areas for up to two years until they enter a demersal phase [@MPI2018]. Juvenile *P. georgianus* experience a moderate growth rate in the first few years of life, although the growth rate drops significantly thereafter [@James1978]. Adults live to beyond 40 years and commonly reach 4.5 kilograms and a fork length of 60 centimeters but are known to reach 6-8 kilograms [@MPI2018]. Female fecundity is low until females reach about 40 centimeters fork length [@MPI2018]. It has been reported that the growth rate of *P. georgianus* in New Zealand is faster and the maturation age later than for *P. georgianus* from Australia [@FisheryStatusReport]. 
+
+### Distribution
+
+Adult *P. georgianus* are known to occur in inshore and offshore locations in the North and South Island of New Zealand (see Figure \@ref(fig:distribution)) as well as the southern half of Australia from New South Wales to Perth [@Smith-Vaniz2006]. Based on data compiled by the National Institute of Water and Atmospheric Research (NIWA), the greatest density of fish occurs in coastal regions [@MPIgeospatialManagement]. In the North Island, these high-density regions occur off Ninety Mile beach, off the east coast of North Cape, the Bay of Plenty, Gisborne, South Taranaki Bight and along most of the east coast of the North Island. In the South Island, a higher density of *P. georgianus* is found in Tasman Bay off Nelson and northern Karamea Bight (see Figure \@ref(fig:distribution)).
+
+The juvenile distribution of *P. georgianus* in New Zealand is limited to coastal regions, predominantly around the North Island but reaching as far south as Bruce bay on the West Coast of the South Island and Kaikoura on the East Coast. The spawning distribution of *P. georgianus* is even further constrained to inshore regions of only the North Island (see Figure \@ref(fig:distribution)). There is limited information on *P. georgianus* spawning regions in the literature, although a putative *P. georgianus* spawning area has been reported in the 0-25m stratum in Urenui Bay extending north of Tirua point by a study that investigated snapper distribution and growth in the North Taranaki Bight [@Horn1986]. In this study, a large number of juvenile *P. georgianus* were caught in two bottom trawl surveys of the area. Since then, juvenile *P. georgianus* have been reported at numerous nursery-like locations around northern New Zealand [@Francis2005] and eggs have been observed along the southern Queensland coast [@Neira2015].
+
+There is some variation in the range and distribution of high density regions of *P. georgianus* associated with season (see Figure \@ref(fig:seasonalDistribution)). The high-density region of *P. georgianus* in the Bay of Plenty occurs in all seasons except for summer. In spring, a second region appears off Whakatane in the eastern most region of the Bay of Plenty. In Autumn, the range of the high-density region in the South Taranaki Bight increases and extends further south. The high-density region in the northern parts of Karamea Bight occurs predominantly in summer and over a smaller range in winter but is not present at all in spring and autumn. In summer, the high-density region in the North Taranaki Bight joins with the largest ranging high-density region along the east coast of the North Island over the North Cape and ranging into Great Exhibition Bay in East Northland. Otherwise these regions are separated in spring, autumn and winter. Seasonal changes in the distribution of juvenile and spawning *P. georgianus* in New Zealand has not been reported in the literature.
+
+### Movement and migration {#generalIntroductionMovement}
+
+An important component of population structure is movement and migration of individuals between populations [@Laikre2005]. There is limited information on the movements of New Zealand *P. georgianus*, however field research typically indicates that the species has surprisingly low levels of movement given the migratory nature of Carangidae species [@James1980]. A tagging experiment was undertaken on trawl caught *P. georgianus* in several locations in the Bay of Plenty and Hauraki Gulf. The 130 tagged fish that were recovered over a five year period indicated that *P. georgianus* in this region had limited movement, with 88% moving less than 55 kilometers from their release sites [@James1980]. The greatest distance observed was 246 kilometers from Great Barrier Island to Whakatane [@James1980]. Additionally, a single *P. georgianus* larval fish swam 82 kilometers in a study that forced larval reef fish to swim in a flume chamber without food or rest [@Dudley2000]. The literature has not described the levels of *P. georgianus* movement in other regions of New Zealand.
+
+Recently, a tag-recapture study was undertaken on a substantial number of *P. georgianus* (over 6300) from 1007 kilometers of the east coast of Australia and over fourteen years [@Fowler2018]. The median movement from the release location to the recapture location was five kilometers and 88.5% of the individuals were recaptured within 50 kilometers of their release location with a time at liberty between one and 427 days. Several individuals were recaptured at their release location. The largest movement recorded was 508 kilometers. Importantly, these tag-recapture studies will likely not capture the extent of fish movements, since it only measures their location at two points in time and is unable to capture non-linear, back-tracing or short term movements. 
+
+Acoustic telemetry has been used to investigate the movements of twelve *P. georgianus* in Western Australia for up to one year. This study found that the home ranges of *P. georgianus* in Jurien Bay in Western Australia were varied in a diurnal manner being larger during the day (0.49 to 1.29 squared kilometers) and smaller during the night (0.37 to 1.61 squared kilometers) [@Fairclough2011]. The home ranges during the day and night were typically at 1-8 meters depth in reef and seagrass habitats, and occasionally sand or patchy seagrass habitats. One fish moved out of the detectable range which is estimated to be able to detect tags 282 kilometers away.
+
+Further research is available on the movement patterns of close relatives of *P. georgianus*. A long-term monitoring study investigating the habitat usage of *P. dentex* in the Azores Islands in the Northern Atlantic Ocean captured movement patterns over three time scales [@Afonso2009]. Using active and passive acoustic tracking and tag-release capture methods, they observed differences in inshore and offshore fish. For three inshore fish, extensive daily movement was observed (between four and seven kilometers). Daily movement was more limited for three offshore fish (400 meters). Over seasonal time scales, inshore fish moved in a pattern similar to their daily movement, whereas offshore fish showed a strong seasonal migration to inshore or other offshore habitats associated with the summer spawning season. Tag-recapture of 58 fish showed long-term movements from the release locations between 100 meters and 52 kilometers. One individual swam at least 30 kilometers in 48 hours.
+
+Carangidae species typically have a migratory nature [@James1980] and research on *P. georgianus* and other *Pseudocaranx* species suggests that adult and juvenile *P. georgianus* have a strong swimming ability. Despite their apparent capacity for long distance movements, limited movement is often observed with infrequent long distance movements. This may be a result of both an underestimation of *P. georgianus* movements in tag-recapture studies as well habitat preferences associated with life stage and season. Information on the migration and movement patterns of *P. georgianus* provide an indication of their potential for long distance migrations and what level of genetic structure of *P. georgianus* populations is possible. However, it does not indicate whether long distance migrations do occur or whether the migrating individuals reproduce and contribute genetically to resident populations. 
+
+### Habitat preferences and reproductive behaviour
+
+It appears that factors such as ocean currents, habitat preferences and reproductive behaviour may have an important role in the distribution of adult, juvenile and spawning *P. georgianus*. *P. georgianus* appear to exhibit seasonal preferences in habitat use. Adult *P. georgianus* in New Zealand will move between pelagic and demersal habitats [@MPI2018]. They are thought to be batch spawners laying small batches of eggs over several weeks or months over the summer spawning season [@MPI2018] as is the case with *P. dentex* [@Afonso2009]. *P. georgianus* have been reported by fishermen to move inshore in spring and offshore in summer, although it is unclear if this observation is due to seasonal differences in fishing patterns [@MPI2018]. These observations are supported by @Afonso2008 and @Afonso2009 which observed inshore and offshore populations of *P. dentex* undertake longer range migrations during the spawning season, aggregating around the summits of offshore reefs. Otherwise, these populations are thought to be segregated for most of the year (@Afonso2008, @Afonso2009). Within a spawning season, a single inshore site was visited by most *P. dentex* individuals tracked in the study [@Afonso2009]. This batch spawning and seasonal migration behaviour is thought to increase mating opportunities for *P. dentex* [@Afonso2009] and could do the same for *P. georgianus*. 
+
+*Pseudocaranx* species also exhibit habitat preferences. Juvenile *P. georgianus* are often found inshore in shallow estuaries and harbours in New Zealand [@MPI2018] and Western Australia [@Farmer2005]. A tendency for schools of juvenile *P. dentex* to use sheltered inshore habitats is thought to be a result of feeding preferences and protection from predators [@Afonso2008]. This behavioural tendency to seek refuge was highlighted by a study by @Castro1999 observing *P. dentex* behaviour using Fish Aggregation Devices in the Canary Islands (central-east Atlantic). Additionally, modelling of presence-absence data by @Brooks2019 indicates that baythemetry is an important determinant of *P. georgianus* occurrence in New Zealand.
+
+The geographic distribution of *P. dentex* larvae off the coast of Brazil was suggested to be related to factors such as water movements and food availability [@Campos2010]. Furthermore, juveniles and sub-adults of *P. chilensis* were possibly transported by currents as larvae to a region over 800 kilometers from where they were previously known to occur (observed on Chanarel Island off the coast of Chile, known to occur on Desvanturadas and Juan Fernandez Islands) [@Bearez2018]. 
+
+Genetic connectivity of individuals, populations or species can result from either common ancestry or an ongoing reproductive connection of populations. Therefore, to fully understand the taxonomy, population genetic structure and demographic history of *P. georgianus* and understand their relevance to *P. georgianus* biology and fisheries management, the analyses undertaken in this thesis will need to interpreted in the light of *P. georgianus* movement and migration habits, reproductive behaviour and habitat.
+
+### Sub-stocks and cryptic species
+
+There is evidence to suggest sub-stocks of *P. georgianus* and cryptic *Pseudocaranx* species are occurring within the *P. georgianus* fisheries in New Zealand. Time-series analysis of catch at-age data suggest that fish from East Northland to Hauraki Gulf and the Bay of Plenty represent sub-stocks of *P. georgianus* [@MPI2018]. Modelling of stock abundance [@MPI2018] and observations in a tag-recapture study [@James1974] suggest that fish from TRE2 and the Bay of Plenty (TRE1) are the same biological stock. Lastly, spatial heterogeneity of age composition and trends in catch per unit effort (CPUE) data suggest three sub-stocks are present within TRE7 on the west coast of New Zealand's North Island: Ninety Mile Beach, Tauroa Point to North Taranaki Bight and South Taranaki Bight [@MPI2018].
+
+The taxonomy of the *Pseudocaranx* genus has been historically contentious, largely as a result of their similar morphologies and an underestimation of gene flow between geographically isolated populations (see @James1974 and @Smith-Vaniz2006). In New Zealand, morphological analyses by @James1974 and @Smith-Vaniz2006 suggest a species distinct from *P. georgianus* exists in the Kermadec (Raoul) Island and the North Cape of New Zealand, however which species these represent remained inconclusive. Currently, *P. wrighti* is only known to occur in the southern half of Australia (@Smith-Vaniz2006). Importantly, mitochondrial DNA studies in Japan have found that morphologically similar *P. dentex* are genetically distinct (see @Masuda1995 and Yamaoka1992). Furthermore, *Pseudocaranx* species in Australia often have overlapping intra-species variation in taxonomically distinguishing morphological features (see @Fishbase2018, @Smith-Vaniz2006).
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+distribution <- shapefile("../data/mapLayers/FinfishDistributions/FinfishDistributions.shp") %>%
+  st_as_sf()
+
+annualDist <- dplyr::filter(distribution, LayerName == "Trevally - Annual Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = annualDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/annualDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+spawningDistribution <- shapefile("../data/mapLayers/FinfishSpawningDistributions/FinfishSpawningDistributions.shp") %>%
+  st_as_sf()
+
+annualJuvDist <- dplyr::filter(spawningDistribution, LayerName == "Trevally - Annual Juvenile Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = annualJuvDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/juvenileDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+spawningDistribution <- shapefile("../data/mapLayers/FinfishSpawningDistributions/FinfishSpawningDistributions.shp") %>%
+  st_as_sf()
+
+annualSpawningDist <- dplyr::filter(spawningDistribution, LayerName == "Trevally - Annual Spawning Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = annualSpawningDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/spawningDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r distribution, out.width = "30%", fig.align = "center", fig.cap = "Annual distribution of $\\textit{P. georgianus}$ in New Zealand by life stage as indicated in green.", fig.show = "hold"}
+library(knitr)
+knitr::include_graphics(c("../imagesFinal/04-generalIntroduction/annualDist.png", "../imagesFinal/04-generalIntroduction/juvenileDist.png", "../imagesFinal/04-generalIntroduction/spawningDist.png"))
+```
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+distribution <- shapefile("../data/mapLayers/FinfishDistributions/FinfishDistributions.shp") %>%
+  st_as_sf()
+
+springDist <- dplyr::filter(distribution, LayerName == "Trevally - Spring Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = springDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/springDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+distribution <- shapefile("../data/mapLayers/FinfishDistributions/FinfishDistributions.shp") %>%
+  st_as_sf()
+
+summerDist <- dplyr::filter(distribution, LayerName == "Trevally - Summer Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = summerDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/summerDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+distribution <- shapefile("../data/mapLayers/FinfishDistributions/FinfishDistributions.shp") %>%
+  st_as_sf()
+
+autumnDist <- dplyr::filter(distribution, LayerName == "Trevally - Autumn Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = autumnDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/autumnDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+distribution <- shapefile("../data/mapLayers/FinfishDistributions/FinfishDistributions.shp") %>%
+  st_as_sf()
+
+winterDist <- dplyr::filter(distribution, LayerName == "Trevally - Winter Distribution")
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addPolygons(data = winterDist, 
+              weight = 0.5, 
+              color = "#54ff9f",
+              fillOpacity = 0.4, 
+              fillColor = "#54ff9f") %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/winterDist.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r seasonalDistribution, out.width = "100%", fig.cap = "Seasonal distribution of $\\textit{P. georgianus}$ in New Zealand as indicated in green."}
+library(knitr)
+knitr::include_graphics("../imagesFinal/04-generalIntroduction/seasonsDist.png")
+```
+
+## *P. georgianus* commercial fisheries
+
+A rights-based, single species Quota Management System (QMS) was implemented in 1986 to address the legally binding goal to sustainably utilise New Zealand's fisheries [@Cryer2016]. Under this system, a total allowable catch (TAC) is allocated for species stocks defined by Quota Management Areas (QMAs) [@Cryer2016]. Much of the TAC is allocated to commercial fishing as the total allowable commercial catch (TACC) with proportions also allocated to customary, recreational use and other fishing-related mortality [@Cryer2016]. *P. georgianus* was introduced into the QMS in 1986 and is managed under five quota management areas; TRE1, TRE2, TRE3, TRE7 and TRE10 [@MPI2018] (see QMA boundaries in Figure \@ref(fig:fishingEffort)).
+
+The total allowable catch (TACC) of *P. georgianus* varies by QMA, with the current allowances being 1507 tonnes for TRE1, 241 tonnes for TRE2, 22 tonnes for TRE3, 2153 tonnes for TRE7 and 10 tonnes for TRE10. Fishing intensity is highest in TRE7 and TRE1 as shown in Figure \@ref(fig:fishingEffort). Landings in TRE1 experienced a general decline after 1986 when TACC limits were implemented. However, since 2014, fishing intensity in TRE1 have nearly reached levels experienced between 1983 and 1986. Fishing in TRE1 has not exceeded the TACC since its introduction. Fishing intensity in TRE2 is comparatively low and has been consistent for the last 30 years. However, landings in TRE2 have exceeded the TACC in 18 of the last 29 years, exceeding the yearly TACC by up to 127 tonnes. Landings in TRE3 are typically well below the TACC and often a yearly catch will be less than 1 tonne. The most intensive fishing occurs in TRE7 along the east coast of New Zealand's North Island. Fishing is often under the TACC, although it has been marginally exceeded in 3 of the last 29 years. Often no *P. georgianus* are taken from TRE10 and a small amount has been taken for only two of the past 29 years. Over the last 31 years, 84.80% of the TACC for all QMA's combined have been fished (see Table \@ref(tab:tacc)).
+
+*P. georgianus* is primarily caught along the northern coasts of the North Island, but fish are also caught as far south as the north of the South Island [@MPI2018]. Trawl is the primary fishing method, although purse seine has increased to substantial quantities since the 1970's particularly in the Bay of Plenty. A modest amount of *P. georgianus* is also taken by set net [@MPI2018].
+
+*P. georgianus* is also an important commercial fishery in Australia and is fished within the Commonwealth Trawl and Scalefish Hook Sector on the south-eastern Australia [@CommonwealthFishery] and the Norfolk Island Fishery in the Norfolk Islands [@NorfolkFishery]. Fishing intensity was historically high in the Commonwealth Trawl and Scalefish Hook Sector, reaching nearly 1600 tonnes in 1990, but fishing intensity has showed a steady overall decrease to just below 55 tonnes in 2017-18 [@FisheryStatusReport]. Commercial fishing is not permitted within the Norfolk Island Fishery and landings from charter and recreational fishing are comparatively low (@AFMA2010; @NorfolkFishery).
+
+Management of New Zealand fisheries under the Quota Management system assumes that Quota Management Areas (QMA's) represent single biological stocks of a single species. Therefore, it is imperative to identify any sub-stocks or cryptic species currently included in *P. georgianus* fisheries to ensure the sustainable management of this Taonga. Currently, limited data is available to validate or reject claims of *P. georgianus* sub-structure and cryptic *Pseudocaranx* species in New Zealand waters. This highlights the need for genetic analysis of *Pseudocaranx* species in Australasia to resolve morphologically inconclusive species occurring in New Zealand *P. georgianus* fisheries.
+
+### Stock status
+
+There is currently no accepted stock assessment of two of the three QMA's undergoing heavy commercial fishing effort (TRE1 and TRE2) but stock assessment for these areas are underway or planned as further data is collected [@MPI2018]. For the most commercially important fishery, TRE7, a stock assessment has been undertaken, but is based only on the core of the fishery from Tauroa point to North Taranaki Bight. Modelling in this stock assessment estimated that female median spawning biomass has declined by roughly half since the 1950's from over 20,000 metric tonnes to around 10,000 metric tonnes [@MPI2018]. This decrease is at times consistent with the rate of increase in the annual catch [@MPI2018]. Spawning biomass was comparatively stable during the 1990's and 2000's at roughly half the level observed in the 1950's, but with a slight recovery observed from 2010 [@MPI2018]. It is unknown how much *P. georgianus* is illegally caught or the impact of other sources of mortality such as the degradation of juvenile habitats [@MPI2018]. Although the New Zealand *P. georgianus* fisheries have and are currently undergoing heavy commercial fishing pressure, the fisheries are considered stable [@MPI2018] although further data is required from a broader region within TRE7 and stock assessments are required for TRE1 and TRE3 in order to fully understand the status of New Zealand *P. georgianus* fisheries.
+
+```{r eval = FALSE}
+library(leaflet)
+library(leaflet.minicharts)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(RColorBrewer)
+
+# Fishing effort data
+effort <- read.csv("../data/04-generalIntroduction/fishingEffort2.csv")
+
+effortByYear <- effort %>% dplyr::select(-location.qma, -latitude, -longitude, -landingsAllYears)
+
+# QMA polygon data
+qma <- shapefile("../data/mapLayers/QMAs/Trevally.shp") %>% 
+  st_as_sf() %>%
+  dplyr::select("LayerName", "FishstockC", "Shape_STAr", "Shape_STLe", "geometry") %>%
+  plyr::rename(c("FishstockC" = "location.qma"))
+
+# Workaround for leaflet issue of not plotting on either side of meridian correctly
+qma_transformed <- qma %>% as_Spatial() %>% spTransform(CRS("+proj=longlat +datum=WGS84 +no_defs +lon_wrap=180"))
+
+colors <- c("#3093e5", "#fcba50", "#a0d9e8", "#3093e5", "#fcba50", "#a0d9e8", "#3093e5", "#fcba50", "#a0d9e8")
+
+leaflet() %>%
+  setView(174.7, -42.7, zoom = 7) %>%
+  addPolygons(data = qma_transformed,
+              smoothFactor = 0.2,
+              weight = 2, 
+              color = "black",
+              fillColor = "grey",
+              fillOpacity = 0.4) %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  addMinicharts(
+    effort$longitude, effort$latitude,
+    chartdata = effortByYear, 
+    colorPalette = colors,
+    legend = FALSE,
+    width = 400, height = 600) %>%
+  mapshot(file = "../images/04-generalIntroduction/fishingEffortByYear.png", vwidth = 2700, vheight = 3900)
+```
+
+```{r fishingEffort, out.width = "100%", fig.align = "center", fig.cap = "$\\textit{P. georgianus}$ Quota Management Areas and yearly fishing effort for the three major commercially fished Quota Management Areas. The total allowable commercial catch (TACC) is indicated in red."}
+library(knitr)
+knitr::include_graphics("../imagesFinal/04-generalIntroduction/fishingEffortByYear.png")
+```
+
+```{r tacc}
+library(dplyr)
+library(kableExtra)
+library(float)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/04-generalIntroduction/tacc.csv", stringsAsFactors = FALSE, header = TRUE, na.strings=c("")) %>%
+  knitr::kable(col.names = c("Quota Management Area", "Years above TACC", "Percentage of TACC caught (1986-2017)", "Percentage of TACC caught (2007-2017)"),
+               caption = "Historical fishing effort by Quota Management Area (QMA).",
+               booktabs = TRUE,
+               align = "r",
+               linesep = "") %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position") %>%
+  column_spec(column = 2:4, width = "1in")
+```
+
+## Molecular genetics {#molecularGenetics}
+
+Genetic studies based on mitochondrial DNA have been an important component of population genetic research for several decades [@Ballard2004]. Mitochondrial markers in genetic research provides distinct biological and practical advantages, causing such markers to be widely used in phylogenetics and population genetics from the 1990's [@Ballard2004]. One of the primary reasons for this interest is that mitochondria do not undergo recombination because of its maternal mode of inheritance [@Avise1987]. This provides a genetic sequence which theoretically has an accumulation of mutations as a result of genetic drift without the contribution of mutations from recombination. For phylogenetics and population genetics, this means that mitochondrial markers are considered largely neutral [@Avise1987]. However in recent years it has been recognised that natural selection can have some influence on mitochondrial DNA markers [@Ballard2004].
+
+The mitogenome also has a high mutation rate compared to nuclear markers, particularly the control region [@Avise1987]. This has allowed intraspecific analyses at the micro-evolutionary scale [@Avise1987]. Mitochondrial DNA markers are also easy to amplify through polymerase chain reaction [@Ballard2004] making mitochondrial DNA studies more straightforward and cost effective than genomic studies. Overall, mitochondrial DNA markers present an opportunity to undertake a low risk 'first look' at a species of interest that has undergone little or no genetic research.
+
+Today, we are transitioning into the genomics era, as producing whole genome data is becoming more affordable and more sophisticated statistical and computational software is developed [@Casillas2017]. As we stand on the precipice of the genomics era, time and money constraints still encourage more traditional mitochondrial DNA studies, particularly as a first genetic investigation into a species for which little genetic research has been undertaken.
+
+### Phylogenetics
+
+One of the most powerful statistical advances in population genetics over the last few decades was the introduction of the stochastic process model referred to as 'the coalescent' [@Kingman2000]. This has enabled researchers to account for randomness inherent in evolution [@Rosenberg2002] and a produced a 'tree thinking' that has transformed many branches of biology [@Yang2012].
+
+These theoretical developments combined with the increased availability of genetic data has progressed the field of phylogenetics from a field based on systematics and taxonomy to a field dominated by molecular genetics [@Yang2012]. Constructing phylogenetic trees from genetic polymorphisms allow us to model the evolutionary history of organisms [@Rosenberg2002] including the persistence of genetic lineages through time as well as species relationships and common ancestry [@Yang2012].
+
+There are several methods of phylogenetic inference, presenting advantages and disadvantages which are discussed in more detail elsewhere (see @Yang2012). However, maximum likelihood and Bayesian inference methods provide advantages over distance matrix and maximum parsimony methods since they can model sequence evolution more realistically [@Yang2012] when appropriate model priors are used [@Huelsenbeck2004].
+
+### Population genetics {#generalIntroPhylogeography}
+
+The field of molecular population genetics arose in the 1966, born from a theoretical platform of population level concepts of evolution such as Mendelian inheritance concepts of changing allele frequencies in populations and the Darwinian concept that biological evolution of genetically distinct species arise from genetic variation in populations [@Casillas2017]. For some time, there existed an extensive theoretical foundation for molecular population genetics, however recent technological advances have permitted the field of molecular population genetics to flourish and diversify [@Casillas2017]. Molecular genetics now has a varied range of applications in ecology, evolution and conservation [@Kress2015].
+
+#### Population structure {#generalIntroPopStructure}
+
+There are three main types of genetic population structure, namely no differentiation (panmictic), continuous change (isolation by distance) and distinct populations (distinct stocks) (see Figure \@ref(fig:popStructureTypes)). Based on the null hypothesis of a panmictic population (no genetic differentiation) distinct populations can be identified using an analysis of molecular variance (AMOVA) [@Excoffier1992]. This test compares the level of genetic variation among individuals of a population to the level of genetic variation between populations or sampling locations [@Excoffier1992]. The significance of any population differentiation is then established using permutational analyses [@Excoffier1992].
+
+A population structure with continuous change (isolation by distance) can be tested for by looking for a correlation between the pairwise level of genetic differentiation between individuals and the pairwise geographic distance [@Meirmans2012]. A positive correlation will result when dispersal distances are smaller than a species’ range [@Wright1943]. 
+
+A panmictic population (no genetic differentiation) can be tentatively concluded when no evidence is found to suggest a population is structured as distinct stocks or isolated by distance. However, this is not direct evidence of a panmictic population, instead a lack of evidence to reject the null hypothesis of no population structuring.
+
+Another method for describing the population structure of a species is the construction of haplotype networks. Haplotype networks are widely used to visualise the relationships within or between populations or species [@Paradis2018]. A number of methods for constructing haplotype networks exist, including parsimony, distances, maximum likelihood, Bayesian inference, split decomposition or consensus methods (see @Holland2004; @Paradis2018).
+
+One distance based method of constructing a haplotype network is the minimum spanning haplotypes networks introduced by @Bandelt1999. This extends on the minimum spanning tree algorithm developed by @Kruskal1956 by allowing an integration of many minimum spanning trees rather than providing one minimum spanning tree. This method combines features of the algorithm by @Kruskal1956 for finding minimum spanning trees and the maximum-parsimony heuristic algorithm by @Farris1970 [@Bandelt1999]. Some methods of constructing haplotype networks will infer unobserved or ancestral haplotypes [@Paradis2018]. However the minimum spanning network does not, providing the benefit of minimising the total length of the network when dealing with large datasets [@Bandelt1999].
+
+Haplotype networks can have advantages over a phylogenetic analyses when it is suspected that there is an ancestral-decendance relationship among the haplotypes compared in the analysis, for example when using a DNA marker with a high mutation rate or when the samples may not all be contemporary [@Paradis2018].
+
+```{r eval = FALSE}
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+library(leaflet.minicharts)
+
+leaflet() %>%
+  setView(172.5, -41, zoom = 8) %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/04-generalIntroduction/basicMap.png", vwidth = 2600, vheight = 3500)
+```
+
+```{r popStructureTypes, out.width = "100%", fig.cap = "Three main types of genetic population structures (figure based on Laikre et al., 2005)."}
+library(knitr)
+knitr::include_graphics("../imagesFinal/04-generalIntroduction/popStructureTypes.png")
+```
+
+#### Demographic history
+
+An excess of old mutations and/or a reduction of young mutations on a DNA region can result from several evolutionary forces, including natural selection, population bottlenecks or population expansions [@Fu1996]. Therefore, the presence of evolutionary events in evolutionary lineage can be tested for by testing for departures from the neutral model [@Fu1996]. Fittingly named, the neutral model assumes that a DNA marker is neutral and not undergoing selection (direct or indirect), recombination or that the population is undergoing a size expansion [@Tajima1989a]. 
+
+Based on the assumption that the number of sites on the DNA sequence is large and the DNA sequences are randomly sampled from a population, departures from the neutral model can be tested for with the Tajima D statistic [@Tajima1989a]. Both selection and a recent population bottleneck can produce a negative Tajima's D value, although the types of genetic variation that will result from these evolutionary forces  will be different. Natural selection will result in the maintenance of insertions and deletions, whereas a population bottleneck or population expansion will affect all types of DNA polymorphisms, resulting in the maintenance of nucleotide diversity [@Tajima1989a] and therefore haplotype diversity.
+
+The Fu's F statistic is another statistical test developed more recently to test for departures from the neutral model [@Fu1996]. It has the advantage of being more powerful than the Tajima's D statistic at identifying selection or population expansions because it is more powerful for detecting departures from the neutral model [@Fu1996].
+
+While Tajima's D and Fu's F statistics can indicate whether or not a populations have undergone a size expansion, mismatch distributions can estimate the size of populations over time. This is because changes in population size leaves characteristic signals in the distribution of nucleotide differences between pairs of individuals [@Rogers1992; @Rogers1996]. Therefore comparing the observed distribution and expected distribution of pairwise nucleotide differences can indicate whether a population has experienced a bottleneck, undergone an size expansion [@Rogers1992] or large spatial expansion [@Ray2003].
+
+The levels of migration between populations can be estimated from genetic data by estimating effective population sizes and immigration rates scaled by mutation [@Beerli1999], described in this thesis as a 'migration analysis'. This Bayesian approach integrates all possible relationships of *P. georgianus* based on the coalescent theory [@Kingman1982coalescent; @Kingman1982genealogy; @Kingman2000] and migration [@Hudson1990; @Nath1993; @Notohara1990].
+
+## Genetics and fisheries management {#generalIntroGeneticsAndManagement}
+
+Understanding the population structure and taxonomy of fisheries species is an important basis on which fisheries are managed [@Laikre2005; @Waples2008]. This understanding allows implementation of fisheries management techniques that reduce the risk of genetic depletion by ensure fishing is undertaken on genetically homogeneous groups [@Laikre2005]. Maintaining genetic diversity is crucial to the sustainability of fisheries [@Laikre2005]. This is because genetic diversity is the basis of a species ability to adapt to environmental changes and complex interacting pressures [@Allendorf2002]. It can also reduce the risk of inbreeding depression which can lead to a reduction in productivity [@Allendorf2002]. Biologically informed fisheries management areas (ie. stocks) reduces the chance of over-exploitation of local populations which can result in local extinction or local reductions in genetic diversity [@Laikre2005].
+
+Genetic tools are a comparatively cheap way to understand a species population structure, taxonomic status and genetic diversity, and in turn define fisheries management stocks [@Bernatchez2017]. It provides base-level measures that enable the sustainable utilisation of fishery resources [@Bernatchez2017]. 
+
+Like other New Zealand fisheries, the *P. georgianus* fishery is managed based on total allowable catch of *P. georgianus* stocks. Therefore, the first step in the successful management of this fishery is to understand what *Pseudocaranx* species are occurring in New Zealand's *P. georgianus* fisheries. The next step is to understand the stock structure of New Zealand *P. georgianus*. Stock structure findings could have important implications for fisheries management by informing the inputs of the stock assessment model used as a basis for managing this fishery. Understanding the taxonomy and population stucture of *P. georgianus* will indicate whether a single or multiple population model is appropriate for New Zealand *P. georgianus* fisheries.
+
+These questions can be addressed with genetic data. Phylogenetic analysis of a DNA marker with a species-level rate of variation can indicate which *Pseudocaranx* species are occurring in New Zealand. Population genetic analyses of a highly variable DNA marker provides fine-scale information on the population structure of *P. georgianus*. Exploring the demographic history of genetically distinct populations identified through population genetic analyses will provide further biological information regarding the population's history and it's response to historical events. In turn, this can provide insights into how *P. georgianus* populations will respond to future environmental pressures.
+
+Although some genetic data has been produced for *P. georgianus* sampled from Australian waters, no genetic data is currently available in either GenBank or BOLD systems for New Zealand specimens of *P. georgianus*. Only one population genetic study has been carried out on a *Pseudocaranx* species (see @Bearham2004) and no such studies have been undertaken on *P. georgianus* in New Zealand. 
+
+## Research direction
+
+This thesis will investigate the taxonomy, population structure, population connectivity and the demographic history of *P. georgianus* in New Zealand based on two mitochondrial DNA markers, the COI gene and the control region. *P. georgianus* from Australia will act primarily as a reference population for investigations of New Zealand *P. georgianus*. Other *Pseudocaranx* species will also be investigated to understand the taxonomic standing of *P. georgianus*. First, the mitogenome of *P. georgianus* will be assembled, primarily to act as a practical basis for producing genetic data by allowing primer design and identification of variable and conserved regions in the mitogenome. This research fits within a wider effort that seeks to broaden the application of genomic tools to inform the management and understanding of aquatic organisms [@Bernatchez2017]. The specific research questions are:
+
+1. What is the general structure and composition of the *P. georgianus* mitogenome and how does it compare to other fish species?
+2. What is the taxonomic status of *P. georgianus* in New Zealand?
+3. What is the population structure of *P. georgianus* in New Zealand?
+4. What is the level of population connectivity of *P. georgianus* within Australasia?
+5. What is the demographic history of New Zealand *P. georgianus*?
+6. What are the implications of these findings for the management of New Zealand *P. georgianus* fisheries?
+7. How do these findings compare to the findings of other New Zealand fisheries species?

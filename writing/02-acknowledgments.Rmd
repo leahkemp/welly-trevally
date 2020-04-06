@@ -1,0 +1,21 @@
+# Acknowledgments {-}
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+I truly wouldn't have been able to undertake, let alone complete this thesis without the help I've received from so many different people. 
+
+First and foremost, I would like to thank Richard White for constantly supporting me throughout this journey by providing snacks and walkies to the cafe for coffee. You've been a huge support.
+
+Thank you to my supervisor Peter Ritchie for providing clarity, feedback, continued support as well as the freedom for independent thinking. Another thank you to my secondary supervisor, Maren Wellenreuther for the vital input and feedback on my initial thesis outline and my final thesis.
+
+I would like to thank my parents, Kathryn Hughes and Ian Kemp for always requiring me to develop my own thoughts and teaching me perseverance and tenacity. I'm comforted to know that my mum would have known that I could complete a master’s degree even though she wasn't able to see it for herself.
+
+Thank you to my sisters and friends for always supporting me and understanding my several month disappearance into the thesis writing cave.
+
+Another thank you is owed to my lab group, Tom Oosting, Amber Brooks, Yvan Papa and Alex Halliwell for keeping me sane throughout this process, mostly with Friday night beers and jokes at each other’s expense that are only occasionally too spicy. On top of this, they guided me through many sticking points in the lab and during the data analysis.
+
+A massive thank you to Moana, the Ministry for Primary Industries fisheries observers and Jennifer Chaplin for being an essential component of this research by providing all the trevally samples used in this thesis.
+
+\clearpage

@@ -1,0 +1,193 @@
+# Field and laboratory work {#fieldAndLab}
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+## Data collection
+
+Genetic data for species in the *Pseudocaranx* genus was sourced from The National Center of Biotechnology Information (NCBI) GenBank database and the Barcode of Life data System (BOLD Systems). Sequences that were not publicly available were provided by Dr William White from the Australian National Fish Collection at the Commonwealth Scientific and Industrial Research Organisation (CSIRO) and Dr Dirk Steinke from the University of Guelph, Ontario. The partial COI gene of forty-five specimens from the *Pseudocaranx* genus from a broad geographic range were obtained. This included sequences from thirty *P. georgianus*, eight *P. dentex*, sixteen *P. wrighti* and five *P. dinjerra* fish.
+
+National Aquatic Biodiversity Information System (NABIS) map layer data for *P. georgianus* Quota Management Areas and species distribution (annual, seasonal, juvenile, spawning distributions) was provided by Juliane Sellars from the Ministry for Primary Industries (MPI).
+
+## Tissue sampling
+
+In total, 1339 *P. georgianus* tissue samples were obtained from several locations around the North Island of New Zealand as well as seven from the Three Kings Islands and four from the Kermadec Islands. A further 87 *P. georgianus* tissues samples were obtained from three locations in Western Australian waters (see Figure \@ref(fig:sampling)).
+
+```{r, eval = FALSE}
+# Samples collected
+library(leaflet)
+library(dplyr)
+library(sp)
+library(sf)
+library(raster)
+library(mapview)
+
+# Import sampling data
+sampling_data <- read.csv("../data/Trevally.csv", stringsAsFactors = FALSE, header = TRUE)
+sampling_data$location.latitude <- as.double(sampling_data$location.latitude)
+sampling_data$location.longitude <- as.double(sampling_data$location.longitude)
+
+popgen_data <- dplyr::filter(sampling_data, sample.source == "alex halliwell" | sample.source == "darren parsons" | sample.source == "moana auckland" | sample.source == "moana wellington" | sample.source == "mpi" | sample.source == "murdoch university" | sample.source == "tepapa")
+
+leaflet(data = popgen_data) %>%
+  setView(146, -31, zoom = 7) %>%  
+  addCircles(lat = ~location.latitude, 
+             lng = ~location.longitude,
+             radius = 40000,
+             color = c('red'),
+             opacity = 0.7,
+             fillOpacity = 0.3) %>%
+   addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = 0.7)) %>%
+  mapshot(file = "../images/06-fieldAndLab/sampling.png", vwidth = 6300, vheight = 4100)  
+```
+
+```{r sampling, out.width = "100%", fig.align = "center", fig.cap = "All sampling locations of $\\textit{P. georgianus}$."}
+library("knitr")
+knitr::include_graphics("../imagesFinal/06-fieldAndLab/sampling.png")
+```
+
+Throughout sampling, all samples were handled with scissors and forceps sterilized with laboratory grade Bastion 70% isopropyl alcohol between each individual. All tissue samples were either preserved immediately, or within six hours of sampling or acquisition and were preserved and stored in separate tubes. Sample coding systems for museum voucher specimens or sub-sampled tissue were also recorded for each relevant sample. All tissues were held in a 4$^\circ$C freezer within a PC2 laboratory at Victoria University of Wellington. The remaining tissues were placed in an -80$^\circ$C freezer for long-term storage. Tissues sampled during his study were taken from the caudal fin and preserved in a high-salt DMSO solution (20% dimethyl sulfoxide (DMSO), 0.5M Ethylenediaminetetraacetic acid (EDTA) and double distilled water (ddH~2~O) (UV treated, passed through a filtration system and autoclaved), sodium chloride (NaCl) saturated). All sub-sampled tissues from Museum collections and previous studies were muscle tissue preserved in ethanol, therefore all sub-samples of these tissues were preserved in 99% ethanol.
+
+The bulk of the caudal fin tissue samples were collected from fish ready for processing at Moana New Zealand warehouse, which is located at 1-3 Bell Avenue, Mt Wellington, Auckland. A few additional tissues were sampled from their Wellington warehouse located at 17/21 Lorne St, Wellington. These factories process commercial *P. georgianus* landings from around New Zealand's North Island. Sampling involved cutting a two centimeter portion of the caudal fin from up to 100 fish from a particular fishing vessel. Prior to sampling, fish were chilled for one to three days on board the fishing vessels and in the factory. While in the factory, the tissue samples were placed in individual zip-lock bags and kept on ice. Within three hours, each fin clip was transferred to individual tubes filled with 1.3 milliliters of high-salt DMSO preservative. These tubes were then frozen at -4$^\circ$C within one to three days of sampling. The sampling location was typically provided verbally as a statistical area or a picture of the route that the fishing vessel took during the multi-day fishing trip. From this information, GPS coordinates of the sampling location were estimated and will be accurate to the level of statistical area.
+
+Many tissue samples were also collected by Ministry for Primary Industries (MPI) fisheries observers who were assigned to commercial fishing vessels. Sampling boxes containing tubes filled with the high-salt DMSO preservative solution, sampling instructions, sample record sheet, scissors, forceps, gloves and 70% isopropanol wipes were mailed to fisheries observers. The sampling boxes were mailed back to the MPI office in Wellington. The sampling location was recorded as GPS coordinates at the start of the trawling tow.
+
+A small number of *P. georgianus* tissue samples were also provided by fishers in Whangarei.
+
+All *P. georgianus* samples caught in Western Australian waters were sub-sampled from muscle tissue held at the Center for Fish and Fisheries Research (Murdoch University, Western Australia) by Dr Jennifer Chaplin. These tissue samples were preserved long-term at Murdoch University in 70% ethanol. Sub-sampling was undertaken on alternate days from other genetic work in the lab to limit cross-contamination. Sub-sampled tissue was placed in 99% ethanol for a few days prior to transportation. The ethanol was removed and the preserved tissue mailed to Victoria University of Wellington. Upon receipt of the tissue samples, the tissues were re-preserved in 99% ethanol.
+
+Muscle tissue was also sub-sampled from voucher specimens held in the fish collection at The Museum of New Zealand Te Papa Tongarewa (Te Papa) (169 Tory Street, Wellington) that were fixed in 98% ethanol. The tissue was sub-sampled by a museum curator and transferred into tubes containing 99% ethanol.
+
+Eighteen whole juvenile *P. georgianus* caught in Whangarei as a part of a mixed species catch were provided by Dr Darren Parsons from the Auckland office of the National Institute of Water and Atmospheric Research (NIWA). The tissue samples were frozen for several months at NIWA. When they were delivered to Victoria University of Wellington, the whole fish specimens were preserved in a high salt DMSO preservative.
+
+## DNA extraction {#samplingDNAextraction}
+
+A high-salt extraction protocol was used to isolate DNA from selected samples. Using flame-sterilized utensils, excess salts or ethanol were removed or scraped from a small portion of tissue. The tissue was finely chopped and placed in a solution for cell lysis, comprised of DNA extraction buffer, sodium dodecyl sulfate (SDS) and Proteinase K. These were gently agitated for at least two hours in an orbital mixer set to 50$^\circ$C. Proteins were precipitated using NaCl, then removed along with the supernatant. The DNA was precipitated with 100% isopropyl alcohol, pelleted in a centrifuge and then washed with 70% ethanol. The pelleted DNA was dried, re-suspended in a Tris-EDTA (TE) buffer and kept frozen at -4°C until required for PCR amplification (the full DNA extraction methodology can be found in Appendix \@ref(appendix)).
+
+To ensure large un-degraded genomic DNA was being extracted, initial DNA extractions were run through a 1% agrose gel, stained with Ethidium Bromide and visualized with a Uvitec Essential V6 UV imaging box. The DNA quantity and quality of all DNA extractions were measured on an Implen NanoPhotometer NP80 NanoDrop. A ratio of 260/280 and 260/230 readings above 1.8 were considered acceptable for PCR amplification. The median readings were 1360.8ng/$\mu$L for DNA quantity, 2.121 for 260/280 readings and 2.224 for 260/230 readings. RNA digestion was not used in the DNA extraction process, therefore NanoDrop readings higher than 1.8 were expected. DNA extractions were repeated on tissue samples until they met the quality and quantity standard. The concentration of the DNA template was standardised across samples by diluted with them with TE buffer to a final concentration of between 100-200ng/$\mu$l. The extracted genomic DNA was used to PCR amplify the COI gene and control region.
+
+## Primer design and sequencing 
+
+From the consensus *P. georgianus* mitogenome assembled in Chapter \@ref(mitogenome)), species-specific primers were designed to target the COI gene and the control region of selected samples. The primers were designed in Primer 3 version 2.3.7 [@Untergasser2012] within Geneious version 11.1.5 [@Kearse2012] and synthesised by Invitrogen. 
+
+PCR amplification was undertaken in a sterilised fume hood in a dedicated PCR room within a PC2 laboratory. Initial PCR's were conducted to establish a set of optimised PCR conditions for the custom primers. This involved varying the annealing temperature, MgCl concentration and DNA template concentration until a single PCR-product of high yield was produced. The final PCR products were purified with ExoSAP-IT^TM^ PCR Product Cleanup Reagent (incubated at 37°C for 15 minutes to remove excess primers and dNTP's, then 80°C for 15 minutes to inactivate the Exo-SAP-IT^TM^ enzyme). 
+
+DNA sequencing of COI gene as well as initial and low yield control region PCR products was carried out using a ABI 3730 Sequencer at Massey University Sequencing and Genotyping Services in Palmerston North, New Zealand. Although the majority of the control region sequencing was carried out by Macrogen in Seoul, the Republic of Korea.
+
+### COI gene
+
+The COI gene of fourteen *P. georgianus* fish sampled from New Zealand's North Island were PCR amplified and sequenced using the final PCR protocol below. The final components of the PCR reaction are described in Table \@ref(tab:coiPCR)) and summary information on all final *P. georgianus* COI sequences can be found in Table \@ref(tab:summaryCOI) (see Chapter \@ref(evolutionaryRelationships) for more detailed information on the COI sequences).
+
+1. An initial soak of 95$^\circ$C for 120 seconds
+2. 35 cycles of: 
+    + Denaturation (95$^\circ$C for 60 seconds)
+    + Annealing (69.7$^\circ$C for 60 seconds) 
+    + Extension (72$^\circ$C for 60 seconds) 
+3. A final extension step of 72$^\circ$C for 10 minutes.
+
+```{r primersCoiTab}
+library(dplyr)
+library(kableExtra)
+library(float)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/06-fieldAndLab/primersCoi.csv", stringsAsFactors = FALSE, header = TRUE, na.strings=c("")) %>%
+  dplyr::select("name",  "direction", "sequence", "GCcontent") %>%
+  knitr::kable(col.names = c("Primer name", "Direction", "Primer sequence (5' to 3')", "GC content"),
+               caption = "A description of the primers designed to target the COI gene of $\\textit{P. georgianus}$.",
+               booktabs = TRUE,
+               align = "r",
+               linesep = "") %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position")
+```
+
+```{r coiPCR}
+library(dplyr)
+library(kableExtra)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/06-fieldAndLab/coiPCR.csv", stringsAsFactors = FALSE, header = TRUE, na.strings=c("")) %>%
+  knitr::kable(col.names = c("PCR component", "Concentration", "Volume (μl)"),
+               caption = "Components of the PCR reaction used to amplify the partial COI gene of $\\textit{P. georgianus}$.",
+               booktabs = TRUE,
+               align = "r",
+               linesep = "") %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position")
+```
+
+### Control region
+
+The control region of 389 *P. georgianus* fish sampled from New Zealand's North Island and Western Australia were PCR amplified and sequenced using the final PCR protocol below. The final components of the PCR reaction are described in Table \@ref(tab:controlPCR)) and summary information on all final *P. georgianus* control region sequences can be found in Table \@ref(tab:summaryControl) (see Chapter \@ref(popStructure) for more detailed information on the control region sequences).
+
+1. An initial soak of 95$^\circ$C for 120 seconds
+2. 35 cycles of: 
+    + Denaturation (95$^\circ$C for 60 seconds)
+    + Annealing (68.4$^\circ$C for 60 seconds) 
+    + Extension (72$^\circ$C for 60 seconds) 
+3. A final extension step of 72$^\circ$C for 10 minutes
+
+```{r primersControlTab}
+library(dplyr)
+library(kableExtra)
+library(float)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/06-fieldAndLab/primersControl.csv", stringsAsFactors = FALSE, header = TRUE, na.strings=c("")) %>%
+  dplyr::select("name", "direction", "sequence", "GCcontent") %>%
+  knitr::kable(col.names = c("Primer name", "Direction", "Primer sequence (5' to 3')", "GC content"),
+               caption = "A description of the primers designed to target the control region of $\\textit{P. georgianus}$.",
+               booktabs = TRUE,
+               align = "r",
+               linesep = "") %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position")
+```
+
+```{r controlPCR}
+library(dplyr)
+library(kableExtra)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/06-fieldAndLab/controlPCR.csv", stringsAsFactors = FALSE, header = TRUE, na.strings=c("")) %>%
+  knitr::kable(col.names = c("PCR component", "Concentration", "Volume (ul)"),
+               caption = "Components of the PCR reaction used to amplify the partial control region of $\\textit{P. georgianus}$.",
+               booktabs = TRUE,
+               align = "r",
+               linesep = "") %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position")
+```
+
+```{r summaryCOI}
+library(dplyr)
+library(kableExtra)
+library(float)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/06-fieldAndLab/dnaSequences.csv", stringsAsFactors = FALSE, header = TRUE, na.strings = c("")) %>%
+  dplyr::filter(gene == "COI") %>%
+  group_by(species, location.country, source) %>%
+  dplyr::summarise(n()) %>%
+  format_cells(1:18, 1, "italics") %>%
+  knitr::kable(col.names = c("Species", "Sampling location","Source", "Number of sequences"),
+               caption = "Summary information on all COI sequences that were acquired and sequenced for $\\textit{Pseudocaranx}$ species.",
+               booktabs = TRUE,
+               align = "r",
+               linesep = "",
+               escape = FALSE) %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position")
+```
+
+```{r summaryControl}
+library(dplyr)
+library(kableExtra)
+library(float)
+
+options(knitr.kable.NA = '-')
+read.csv("../data/06-fieldAndLab/summaryControl.csv", stringsAsFactors = FALSE, header = TRUE, na.strings=c("")) %>%
+  knitr::kable(col.names = c("Sampling country", "Sampling QMA", "Sample source", "Number of sequences"),
+               booktabs = TRUE,
+               caption = "Summary information on all $\\textit{P. georgianus}$ samples for which the control region was sequenced.",
+               align = "r",
+               linesep = "") %>%
+  kable_styling(font_size = 8, position = "center", latex_options = "hold_position")
+```
