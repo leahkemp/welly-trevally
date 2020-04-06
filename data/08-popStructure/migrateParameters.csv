@@ -1,0 +1,19 @@
+parameter,value
+Transition - transversion ratio,6.9285
+Base-pair frequency,Calculated from data
+Sequencing error rate,0
+Parameter start values,$F_{ST}$-type calculation
+Mutation rate,Constant
+$F_{ST}$ model type,Theta
+Bayes update frequency,0.4 (0.6 for free migration model)
+Bayes proposals (theta),Metropolis-Hastings sampler
+Bayes proposals (migration),Metropolis-Hastings sampler
+Bayes prior distribution (theta),"Uniform (min = 0.15, max = 0.70)"
+Bayes prior distribution (migration),"Uniform (min = 0.00, max = 4000)"
+Long chains,1
+Number of updates not recorded,3000 (6000 for free migration model)
+Number of sampled updates,"50,000"
+Burn-in ,"20,000"
+Target acceptance ratio,0.44
+Lowest allowed migration value,0.001
+Complete run replicates ,4

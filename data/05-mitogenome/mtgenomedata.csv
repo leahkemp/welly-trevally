@@ -1,0 +1,39 @@
+name,dna.type,start,stop,length,direction,strand.encoded,overlapping,start.codon,stop.codon,equula.start.codon,equula.stop.codon,common-start.codon,common.stop.codon,GC,identical.sites,proportionIdentical,snps,proportionSnps,parsimony.sites,proportion.parsimony.sites,common.length,equula.length,equula.GC
+Phe,tRNA,1,68,68,Forward,Light,No,,,,,,,50.0%,,,,,0,0.0%,,68,45.6%
+12S,rRNA,69,1019,951,Forward,Light,No,,,,,,,47.3%,948,99.5%,5,0.5%,0,0.0%,,950,47.4%
+Val,tRNA,1020,1091,72,Forward,Light,No,,,,,,,48.6%,,,,,0,0.0%,,72,50.0%
+16S,rRNA,1092,2810,1719,Forward,Light,No,,,,,,,45.5%,1710,99.5%,9,0.5%,1,0.1%,,1719,47.0%
+Leu (1),tRNA,2811,2884,74,Forward,Light,No,,,,,,,50.0%,,,,,0,0.0%,,74,51.4%
+ND1,gene,2885,3859,975,Forward,Light,No,ATG,TAA,ATG,TAA,ATG,TAA,49.4%,952,97.6%,23,2.4%,9,0.9%,975,975,52.8%
+Ile,tRNA,3860,3934,75,Forward,Light,Yes,,,,,,,50.7%,,,,,0,0.0%,,75,54.7%
+Gln,tRNA,4004,3934,71,Reverse,Heavy,Yes,,,,,,,40.8%,,,,,0,0.0%,,71,40.8%
+Met,tRNA,4004,4072,69,Forward,Light,Yes,,,,,,,49.3%,,,,,0,0.0%,,69,44.9%
+ND2,gene,4073,5112,1040,Forward,Light,No,ATG,T - -,ATG,TAG,ATG,TA -,49.2%,996,95.8%,44,4.2%,18,1.7%,1046,1047,53.4%
+Trp,tRNA,5118,5188,71,Forward,Light,N,,,,,,,49.3%,,,,,0,0.0%,,71,49.3%
+Ala,tRNA,5258,5189,70,Reverse,Heavy,N,,,,,,,40.0%,,,,,0,0.0%,,70,40.0%
+Asn,tRNA,5332,5260,73,Reverse,Heavy,N,,,,,,,49.3%,,,,,1,1.4%,,73,50.7%
+Cys,tRNA,5435,5369,67,Reverse,Heavy,N,,,,,,,43.3%,,,,,0,0.0%,,67,43.3%
+Tyr,tRNA,5505,5436,70,Reverse,Heavy,N,,,,,,,47.1%,,,,,0,0.0%,,70,45.7%
+COX1,gene,5507,7057,1551,Forward,Light,N,GTG,TAA,GTG,TAA,GTG,TAA,45.7%,1536,99.0%,15,1.0%,5,0.3%,1551,1551,46.3%
+Ser (1),tRNA,7128,7058,71,Reverse,Heavy,N,,,,,,,47.9%,,,,,0,0.0%,,71,47.9%
+Asp,tRNA,7132,7202,71,Forward,Light,N,,,,,,,43.7%,,,,,0,0.0%,,71,43.7%
+COX2,gene,7210,7900,691,Forward,Light,N,ATG,T - -,ATG,T - -,ATG,T - -,43.3%,684,99.0%,7,1.0%,0,0.0%,691,691,45.3%
+Lys,tRNA,7901,7975,75,Forward,Light,N,,,,,,,42.7%,,,,,0,0.0%,,74,43.2%
+ATP8,gene,7977,8141,165,Forward,Light,Yes,ATG,TAG,ATG,TAA,ATG,TAA,46.1%,164,99.4%,1,0.6%,0,0.0%,168,165,50.9%
+ATP6,gene,8135,8818,684,Forward,Light,Yes,ATG,TAA,GTG,TAA,ATG,TA -,47.1%,670,98.0%,14,2.0%,4,0.6%,683,684,48.5%
+COX3,gene,8818,9602,785,Forward,Light,Yes,ATG,TA -,ATG,TAA,ATG,TA -,50.4%,776,98.9%,9,1.1%,2,0.3%,785,785,49.0%
+Gly,tRNA,9603,9672,70,Forward,Light,No,,,,,,,37.1%,,,,,0,0.0%,,70,38.6%
+ND3,gene,9673,10021,349,Forward,Light,No,ATG,T - -,ATG,TAG,ATG,T - -,46.1%,344,98.6%,5,1.4%,1,0.3%,349,349,48.4%
+Arg,tRNA,10022,10090,69,Forward,Light,No,,,,,,,30.4%,,,,,0,0.0%,,69,36.2%
+ND4L,gene,10092,10388,297,Forward,Light,Yes,ATG,TAA,ATG,TAA,ATG,TAA,51.5%,292,98.3%,5,1.7%,2,0.7%,297,297,55.2%
+ND4,gene,10382,11762,1381,Forward,Light,Yes,ATG,T - -,ATG,T - -,ATG,T - -,47.4%,1356,98.2%,25,1.8%,7,0.5%,1381,1381,49.9%
+His,tRNA,11763,11834,72,Forward,Light,No,,,,,,,40.3%,,,,,0,0.0%,,72,41.7%
+Ser (2),tRNA,11835,11902,68,Forward,Light,No,,,,,,,51.5%,,,,,0,0.0%,,68,55.9%
+Leu (2),tRNA,11907,11979,73,Forward,Light,No,,,,,,,45.2%,,,,,0,0.0%,,73,45.2%
+ND5,gene,11980,13818,1839,Forward,Light,Yes,ATG,TAA,ATG,TAG,ATG,TAA,45.6%,1803,98.0%,36,2.0%,14,0.8%,1839,1839,48.3%
+ND6,gene,14336,13815,522,Reverse,Heavy,Yes,ATG,TAA,ATG,TAA,ATG,TAG,48.5%,509,97.5%,13,2.5%,5,1.0%,552,522,53.8%
+Glu,tRNA,14405,14337,69,Reverse,Heavy,No,,,,,,,42.0%,,,,,0,0.0%,,69,40.6%
+CYTB,gene,14410,15550,1141,Forward,Light,No,ATG,T - -,ATG,T - -,ATG,T - -,49.3%,1104,96.8%,37,3.2%,11,1.0%,1141,1141,50.0%
+Thr,tRNA,15551,15622,72,Forward,Light,Yes,,,,,,,51.4%,,,,,0,0.0%,,72,51.4%
+Pro,tRNA,15692,15622,71,Reverse,Heavy,Yes,,,,,,,40.8%,,,,,0,0.0%,,71,40.8%
+D-loop,D-loop,15693,16578,886,Forward,Light,No,,,,,,,38.4%,789,88.8%,100,11.2%,41,4.6%,,889,39.7%

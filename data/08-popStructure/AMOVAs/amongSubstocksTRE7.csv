@@ -1,0 +1,10 @@
+,df,sumofsquares,sigmasquared,variation,FST,p-value
+Among populations,1,358.121,1.334,0.59023,0.059,0.09
+Within populations,98,22021.179,224.706,99.40977,,
+Total,99,22379.3,226.04,,,
+Among populations,1,329.839,1.102,0.45395,0.00454,0.154
+Within populations,78,18850.486,241.673,99.54605,,
+Total,79,19180.325,242.775,,,
+Among populations,1,384.917,6.002,3.01853,0.03019,0.039
+Within populations,30,5785.333,192.844,96.98147,,
+Total,31,6170.25,198.847,,,

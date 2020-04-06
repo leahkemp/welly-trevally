@@ -1,0 +1,96 @@
+species,gene,phylogeny.code,location.general,location.country,location.latitude,location.longitude,exact.gps.known,sample.id,museum.id,bold.id,genbank.accession,source,public.availability,where.available,sampling.date,sampling.depth,reference,phylogenetic.clade,collected.sequenced
+P. wrighti,16S,,Stomach contents of arrow squid collected in the eastern Great Australian Bight,Australia,,,N,,,,GQ412291,Genbank,Yes,Genbank,,,"Bradley, M., et al. (2010)",,collected
+P. wrighti,16S,,South Australian coastal waters,South Australia,,,N,,,,KX234660,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. wrighti,16S,,South Australian coastal waters,South Australia,,,N,,,,KX234659,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. wrighti,COI,P. wrighti 05,"Spencer Gulf, Western Shoal",South Australia,-33.185,137.6,Y,MFG543,A29204-003,FMVIC825-08,,Dirk Steinke,Yes,BOLD,05-10-05,30,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 06,"Spencer Gulf, Western Shoal",South Australia,-33.185,137.6,Y,MFG544,A29214-002,FMVIC826-08,,Dirk Steinke,Yes,BOLD,06-10-05,30,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 07,"Spencer Gulf, Middlebank",South Australia,-33.605,137.483,Y,MFG545,A29222-001,FMVIC827-08,,Dirk Steinke,Yes,BOLD,09-10-05,29,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 01,North of Rottnest Island,Western Australia,-31.897672,115.499492,N,BW-A1424,,FOAC425-05,,William White (CSIRO),No,,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 02,North of Rottnest Island,Western Australia,-31.897672,115.499492,N,BW-A1425,,FOAC426-05,,William White (CSIRO),No,,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 03,North of Rottnest Island,Western Australia,-31.897672,115.499492,N,BW-A1426,,FOAC427-05,,William White (CSIRO),No,,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 04,North of Rottnest Island,Western Australia,-31.897672,115.499492,N,BW-A1427,,FOAC428-05,,William White (CSIRO),No,,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 09,South of Rottnest Island,Western Australia,-32.1667,115.7,Y,BW-A10910,CSIRO H 6351-01,FOAN117-11,JN313227,William White (CSIRO),Yes,BOLD,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 10,South of Rottnest Island,Western Australia,-32.1667,115.7,Y,BW-A10911,CSIRO H 6351-02,FOAN118-11,JN313228,William White (CSIRO),Yes,BOLD,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 11,South of Rottnest Island,Western Australia,-32.1667,115.7,Y,BW-A10912 ,CSIRO H 6351-02,FOAN119-11,JN313229,William White (CSIRO),Yes,BOLD,,,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 16,Cockburn Sound,Western Australia,-32.163393,115.742632,N,MFG#546,A29351-013,FMVIC828-08,,Dirk Steinke,Yes,BOLD,06-04-06,17,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 08,North East of Rottnest Island,Western Australia,-31.92,115.583,Y,BW-A1423,CSIRO H 4625-01,FOAC424-05,EF609443,BOLD,Yes,"BOLD, Genbank",08-01-96,30,Unpublished,4,collected
+P. wrighti,COI,P. wrighti 12,Warnbro Sound,Western Australia,-32.330251,115.722253,Y,WarnbroT1,,,MK101243,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",4,collected
+P. wrighti,COI,P. wrighti 13,Warnbro Sound,Western Australia,-32.330251,115.722253,Y,WarnbroT2,,,MK101244,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",4,collected
+P. wrighti,COI,P. wrighti 14,Warnbro Sound,Western Australia,-32.330251,115.722253,Y,WarnbroT3,,,MK101245,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",4,collected
+P. wrighti,COI,P. wrighti 15,Warnbro Sound,Western Australia,-32.330251,115.722253,Y,WarnbroT4,,,MK101246,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",4,collected
+P. georgianus,COI,P. georgianus 05,Port Phillip Bay,Victoria,-38.2833,144.65,Y,MFG541,A25443-006,FMVIC823-08,,Dirk Steinke,Yes,BOLD,06-02-04,1,Unpublished,1,collected
+P. georgianus,COI,P. georgianus 18,North of Rottnest Island,Western Australia,-31.9428,115.59,Y,BW-A10906,CSIRO H6346-30 ,FOAN113-11,JN313226,William White (CSIRO),Yes,Genbank,09-04-06,,Unpublished,1,collected
+P. georgianus,COI,P. georgianus 19,North West of Rottnest Island,Western Australia,-31.891,115.271,Y,BW-A10927,CSIRO H6350-17 ,FOAN134-11,JN313242,William White (CSIRO),Yes,Genbank,10-04-06,,Unpublished,1,collected
+P. georgianus,COI,P. georgianus 20,North West of Rottnest Island,Western Australia,-31.891,115.271,Y,BW-A10928,CSIRO H6350-18 ,FOAN135-11,JN313243,William White (CSIRO),Yes,Genbank,10-04-06,,Unpublished,1,collected
+P. georgianus,COI,P. georgianus 06,North East of Rottnest Island,Western Australia,-31.9097,115.594,Y,MFG542,A29358-020,FMVIC824-08,,Dirk Steinke,Yes,BOLD,09-04-06,28,Unpublished,1,collected
+P. georgianus,COI,P. georgianus 07,,Victoria,-38.2833,144.65,Y,MFG541,A25443-006,FMVIC822-08,,Dirk Steinke,Yes,BOLD,,,Unpublished,1,collected
+P. georgianus,COI,P. georgianus 21,Port Gregory,Western Australia,-28.192099,114.246791,N,STPG4,,,MK101227,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 22,Geraldton,Western Australia,-28.783333,114.573333,N,ST092,,,MK101228,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 23,Dongara,Western Australia,-29.245351,114.882539,N,ST987,,,MK101229,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 24,Geographe Bay,Western Australia,-33.605021,115.350709,N,ST091,,,MK101230,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 25,Cape Naturaliste,Western Australia,-33.528761,115.025482,N,ST120321-03,,,MK101231,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 26,Geographe Bay,Western Australia,-33.605021,115.350709,N,ST073,,,MK101232,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 27,Port Gregory,Western Australia,-28.192099,114.246791,N,STPG5,,,MK101233,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 28,Cape Naturaliste,Western Australia,-33.528761,115.025482,N,ST120321-02,,,MK101234,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 29,Geraldton,Western Australia,-28.783333,114.573333,N,GldST11,,,MK101235,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. georgianus,COI,P. georgianus 30,Aborolhos Islands,Western Australia,-28.606664,113.773924,N,ST23,,,MK101236,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",1,collected
+P. dinjerra,COI,P. dinjerra 05,Aborolhos Islands,Western Australia,-28.606664,113.773924,N,Psp08,,,MK101241,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",3,collected
+P. dinjerra,COI,P. dinjerra 04,Aborolhos Islands,Western Australia,-28.606664,113.773924,N,Psp18,,,MK101240,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",3,collected
+P. dinjerra,COI,P. dinjerra 03,Aborolhos Islands,Western Australia,-28.606664,113.773924,N,Psp20,,,MK101239,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",3,collected
+P. dinjerra,COI,P. dinjerra 02,Aborolhos Islands,Western Australia,-28.606664,113.773924,N,Psp02,,,MK101238,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",3,collected
+P. dinjerra,COI,P. dinjerra 01,Aborolhos Islands,Western Australia,-28.606664,113.773924,N,Psp01,,,MK101237,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",3,collected
+P. dentex,16S,,Hobart,Tasmania,,,N,,,,EU848433,Genbank,Yes,Genbank,,,"Deagle, B. E., et al. (2009)",,collected
+P. dentex,12S,,Okinawa Churaumi Aquarium,Japan,,,N,,,,AB969997,Genbank,Yes,Genbank,02-06-14,,"Miya, M., et al. (2015)",,collected
+P. dentex,COI,P. dentex 01,Nitzanim,Israel,31.792,34.578,N,BIM E164,P. 14752,BIM281-13,,BOLD,Yes,BOLD,20-02-12,33,Unpublished,2,collected
+P. dentex,COI,P. dentex 03,Techobanine,South Africa,-27.467463,32.891368,N,ADC11_210.37 ,,DSFSG564-11,KF489713,BOLD,Yes,"BOLD, Genbank",10-01-11,20,Unpublished,2,collected
+P. dentex,COI,P. dentex 07,,South Africa,-27.467463,32.891368,N,ADC11_210.37 ,,DSFSG649-11,KF489712,BOLD,Yes,"BOLD, Genbank",,,Unpublished,2,collected
+P. dentex,COI,P. dentex 08,Illinois,United States of America,42.188862,-87.529592,N,3227IL,,OCARH994-12,,BOLD,Yes,BOLD,01-06-12,,Unpublished,2,collected
+P. dentex,COI,P. dentex 06,South of Cape Everard,Victoria,-38.03,149.167,Y,BW-A1428,CSIRO H 3766-03,FOAC429-05,EF609442,BOLD,Yes,"BOLD, Genbank",29-08-94,120,Unpublished,1,collected
+P. dentex,COI,P. dentex 02,North of Rottnest Island,Western Australia,-31.9333,115.583,Y,BW-A3041,CSIRO H 6346-07,FOAF169-07,,BOLD,Yes,BOLD,09-04-06,28,Unpublished,1,collected
+P. dentex,COI,P. dentex 04,Caloundra,Queensland,-26.808303,153.130331,N,P.dentexI39036,,,MK101242,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",2,collected
+P. dentex,COI,P. dentex 05,Mangareva Island,French Polynesia,-23.113677,-134.982567,N,GAM-733,,,MK658523,Genbank,Yes,Genbank,,,"Bearham, D., et al. (in prep)",2,collected
+P. dentex,Cytb,,Canary Islands,Spain,,,N,BMVP/1203,,,EF392607,Genbank,Yes,Genbank,,,"Gonzalez-Sevilla, R., et al. (unpublished)",,collected
+P. dentex,Cytb,,Canary Islands,Spain,,,N,,Pden1_395,,DQ197985,Genbank,Yes,Genbank,,,"Gonzalez-Sevilla, R., et al. (unpublished)",,collected
+P. dentex,Cytb,,,,,,,,,,HQ593682,Genbank,Yes,Genbank,,,"Lago, F. C., et al. (2011)",,collected
+P. dentex,Cytb,,,,,,,,,,HQ593681,Genbank,Yes,Genbank,,,"Lago, F. C., et al. (2011)",,collected
+P. dentex,Cytb,,,,,,,,,,AB326980,Genbank,Yes,Genbank,,,"Oohara, I., et al. (2007)",,collected
+P. dentex,mcl2,,,,,,,,,,AB072802,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,mlc1,,,,,,,,,,AB072906,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,mlc1,,,,,,,,,,AB072800,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,mlc3,,,,,,,,,,AB072801,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,mRNA for growth hormone,,,,,,,,,,X55176,Genbank,Yes,Genbank,,,"Yamakawa, M., et al. (1990)",,collected
+P. dentex,mRNA for myoglobin,,,,,,,,,,AB474558,Genbank,Yes,Genbank,,,"Hasan, M. M., et al. (unpulished)",,collected
+P. dentex,Myosin heavy chain 6,,,,,,,,,,KX512770,Genbank,Yes,Genbank,,,"Damerau, M., et al. (2017)",,collected
+P. dentex,Rhodopsin,,Madeira Archipelago,Portugal,,,N,MMF 35282,,,EF439301,Genbank,Yes,Genbank,,,"Gonzalez-Sevilla, R., et al. (unpublished)",,collected
+P. dentex,Rhodopsin,,Canary Islands,Spain,,,N,BMVP1203,,,EF427495,Genbank,Yes,Genbank,,,"Gonzalez-Sevilla, R., et al. (unpublished)",,collected
+P. dentex,Rhodopsin,,Canary Islands,Spain,,,N,,Pden1_395,,DQ197887,Genbank,Yes,Genbank,,,"Gonzalez-Sevilla, R., et al. (unpublished)",,collected
+P. chilensis,Tmo-4c4,,,,,,N,,,,DQ388111,Genbank,Yes,Genbank,,,"Orrell, T. M., et al. (2006)",,collected
+P. georgianus,COI,P. georgianus 01,Whangamata,New Zealand,-37.12200137,175.9687042,Y,50,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 02,Whangamata,New Zealand,-37.12200137,175.9687042,Y,55,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 03,Whangamata,New Zealand,-37.12200137,175.9687042,Y,63,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 04,Whangamata,New Zealand,-37.12200137,175.9687042,Y,75,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 08,Raglan,New Zealand,-37.778333,174.746667,Y,TRA2-A1,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 09,Raglan,New Zealand,-37.778333,174.746667,Y,TRA2-A2,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 10,Raglan,New Zealand,-37.778333,174.746667,Y,TRA2-A3,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 11,Raglan,New Zealand,-37.778333,174.746667,Y,TRA2-A4,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 12,Raglan,New Zealand,-37.778333,174.746667,Y,TRA2-A5,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 13,Raglan,New Zealand,-37.778333,174.746667,Y,TRA2-A6,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 14,Bay of Plenty,New Zealand,-37.7,177.433333,Y,TRA8-A3,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 15,North Cape,New Zealand,-34.4,172.916667,Y,TRA9-A2,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 16,Gisborne,New Zealand,-38.93,178.09,N,TRA29-A2,,,,Sequenced,No,,,,,1,sequenced
+P. georgianus,COI,P. georgianus 17,Wellington region,New Zealand,-40.97,174.83,N,TRA39-A2,,,,Sequenced,No,,,,,1,sequenced
+P. dentex,12S,,,,,,N,,KAUM:I:98163,,LC492388,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:98204,,LC492387 ,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:95039,,LC492386,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:88560,,LC492385,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:68543,,LC492384,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:68542,,LC492383,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:68541,,LC492382,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:65340,,LC492381,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:65216,,LC492380 ,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:62423,,LC492379 ,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:120199,,LC492378,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:111520,,LC492377  ,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:109087,,LC492376,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,,,,,N,,KAUM:I:98974,,LC492375,Genbank,Yes,Genbank,,,Unpublished,,collected
+P. dentex,12S,,Ehime,Japan,,,N,,CBM:ZF:19587,,LC492374,Genbank,Yes,Genbank,,,Unpublished,,collected

@@ -1,0 +1,8 @@
+region,years.above.tacc,last31years,last10years
+TRE1,0,77.71%,81.12%
+TRE2,18,108.89%,105.10%
+TRE3,1,11.99%,4.54%
+TRE7,3,89.09%,86.16%
+TRE10,0,0.64%,0.00%
+"TRE1, TRE2 and TRE7",,85.92%,85.39%
+All,,86.01%,84.80%

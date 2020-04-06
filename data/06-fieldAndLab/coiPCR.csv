@@ -1,0 +1,11 @@
+PCR component,Concentration,Volume
+PCR H2O,-,14.4
+NH4 Reaction Buffer (Bioline),10x,2.5
+MgCl (Bioline),50mM,1.5
+BSA,10mg/ul,1.5
+Forward primer (TRE_tRNA_Pro_F),10uM,1
+Reverse Primer (TRE_control_R_2),10uM,1
+dNTP's,5uM,2
+BIOTAQTM DNA polymerase,-,0.1
+DNA template,100-200ng/ul,1
+TOTAL,-,25

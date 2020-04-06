@@ -1,0 +1,64 @@
+location.country,location.qma,location.stat.area,sample.source,tissue.type,landing.date,exact.gps.known,n
+New Zealand,TRE1,area 002,Moana Auckland,Caudal fin,03-09-18,No,17
+New Zealand,TRE1,area 002,MPI,Caudal fin,30-08-18,Yes,10
+New Zealand,TRE1,area 002,MPI,Caudal fin,31-08-18,Yes,11
+New Zealand,TRE1,area 003,Darren Parsons,Whole fish,08-03-18,No,13
+New Zealand,TRE1,area 003,Moana Auckland,Caudal fin,05-08-18,No,33
+New Zealand,TRE1,area 008,Moana Auckland,Caudal fin,04-09-18,No,28
+New Zealand,TRE1,area 009,Fishers Whangarei,Muscle,26-07-17,Yes,6
+New Zealand,TRE1,area 009,MPI,Caudal fin,20-09-18,Yes,9
+New Zealand,TRE1,area 010,MPI,Caudal fin,15-09-18,Yes,3
+New Zealand,TRE1,area 010,MPI,Caudal fin,16-09-18,Yes,3
+New Zealand,TRE1,area 010,MPI,Caudal fin,21-09-18,Yes,8
+New Zealand,TRE1,area 010,MPI,Caudal fin,22-09-18,Yes,11
+New Zealand,TRE2,area 011,Moana Auckland,Caudal fin,04-11-18,No,28
+New Zealand,TRE2,area 013,Moana Auckland,Caudal fin,05-09-18,No,11
+New Zealand,TRE2,area 013,Moana Auckland,Caudal fin,05-11-18,No,2
+New Zealand,TRE2,area 013,Moana Auckland,Caudal fin,06-11-18,No,17
+New Zealand,TRE2,area 016,Te Papa,Muscle, Apr 2009,Yes,1
+New Zealand,TRE7,area 039,Moana Auckland,Caudal fin,02-02-19,No,4
+New Zealand,TRE7,area 040,Te Papa,Muscle,04-12-09,Yes,2
+New Zealand,TRE7,area 041,MPI,Caudal fin,15-02-19,Yes,9
+New Zealand,TRE7,area 041,MPI,Caudal fin,16-11-18,Yes,5
+New Zealand,TRE7,area 041,MPI,Caudal fin,19-09-18,Yes,5
+New Zealand,TRE7,area 041,MPI,Caudal fin,23-10-18,Yes,6
+New Zealand,TRE7,area 041,MPI,Caudal fin,24-10-18,Yes,5
+New Zealand,TRE7,area 041,Te Papa,Muscle,19-12-09,Yes,2
+New Zealand,TRE7,area 041,Te Papa,Muscle,23-12-09,Yes,3
+New Zealand,TRE7,area 041,Te Papa,Muscle,06-10-09,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,10-09-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,11-08-18,Yes,3
+New Zealand,TRE7,area 042,MPI,Caudal fin,11-09-18,Yes,2
+New Zealand,TRE7,area 042,MPI,Caudal fin,11-11-18,Yes,2
+New Zealand,TRE7,area 042,MPI,Caudal fin,12-08-18,Yes,4
+New Zealand,TRE7,area 042,MPI,Caudal fin,14-11-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,15-11-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,16-11-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,19-09-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,19-10-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,20-09-18,Yes,3
+New Zealand,TRE7,area 042,MPI,Caudal fin,20-10-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,21-10-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,29-09-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,31-07-18,Yes,4
+New Zealand,TRE7,area 042,MPI,Caudal fin,05-08-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,06-08-18,Yes,1
+New Zealand,TRE7,area 042,MPI,Caudal fin,08-10-18,Yes,2
+New Zealand,TRE7,area 046,Te Papa,Muscle,18-02-11,Yes,2
+New Zealand,TRE7,area 046,Te Papa,Muscle,22-02-11,Yes,1
+New Zealand,TRE7,area 046,Te Papa,Muscle,24-02-11,Yes,3
+New Zealand,TRE7,area 047,Moana Auckland,Caudal fin,29-07-18,Yes,20
+New Zealand,TRE7,area 047,Te Papa,Muscle,13-04-13,Yes,1
+New Zealand,TRE7,area 047,Te Papa,Muscle,14-04-13,Yes,1
+New Zealand,TRE7,area 047,Te Papa,Muscle,17-04-13,Yes,1
+New Zealand,TRE7,area 047,Te Papa,Muscle,19-04-13,Yes,1
+New Zealand,TRE7,area 047,Te Papa,Muscle,22-02-11,Yes,1
+New Zealand,TRE7,area 047,Te Papa,Muscle,23-02-11,Yes,4
+New Zealand,TRE10,area 092,Te Papa,Muscle,27-10-16,Yes,1
+New Zealand,TRE10,area 092,Te Papa,Muscle,07-05-11,Yes,1
+New Zealand,TRE10,area 092,Te Papa,Muscle,08-05-11,Yes,1
+New Zealand,TRE10,area 093,Te Papa,Muscle,23-05-11,Yes,1
+Australia,,,Murdoch University,Muscle,10-03-12,Yes,27
+Australia,,,Murdoch University,Muscle,17-02-12,Yes,10
+Australia,,,Murdoch University,Muscle,19-02-12,Yes,18
+Australia,,,Murdoch University,Muscle,09-08-12,Yes,13

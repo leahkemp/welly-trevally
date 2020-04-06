@@ -1,0 +1,3 @@
+target,direction,name,sequence,GCcontent
+First two thirds of the control region,Forward,TRE_tRNA_Pro_F,ACT GCT CAG AAA AAG GAG ACT CT,43%
+First two thirds of the control region,Reverse,TRE_control_R_2,AGT GAT TCT AGG AGT TTA GGG GG,47%

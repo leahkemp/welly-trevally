@@ -1,0 +1,6 @@
+parameter,autocorrelation,effective.sample.size
+theta1,0.33483,100009.44
+theta2,0.36133,94568.1
+migration2-1,0.73492,32739.71
+migration1-2,0.802,23756.45
+Ln(Prob(D|G)),0.88393,12321.71

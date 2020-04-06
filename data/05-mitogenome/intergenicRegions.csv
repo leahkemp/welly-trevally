@@ -1,0 +1,11 @@
+region,length,boardering
+1,5,ND2 gene and tRNA-Trp
+2,1,tRNA-Ala and tRNA-Asn
+3,36,tRNA-Asn and tRNA-Cys
+4,1,tRNA-Tyr and COX1 gene
+5,3,tRNA-Ser (1) and tRNA-Asp
+6,7,tRNA-Asp and COX2 gene
+7,1,tRNA-Lys and ATP8 gene
+8,1,tRNA-Arg and ND4L gene
+9,4,tRNA-Ser (2) and tRNA-Leu (2) 
+10,4,tRNA-Glu and Cytb gene

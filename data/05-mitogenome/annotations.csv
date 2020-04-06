@@ -1,0 +1,96 @@
+genome,reference,iterations,annotation,type,min,max,length,direction
+1tbs,KM201334,"1,000",Control region,D-loop,15694,16578,885,forward
+1tbs,KM201334,"1,000",tRNA-Pro,tRNA,15623,15693,71,reverse
+1tbs,KM201334,"1,000",tRNA-Thr,tRNA,15552,15623,72,forward
+1tbs,KM201334,"1,000",CYTB stop codon,stop,15551,15551,1,forward
+1tbs,KM201334,"1,000",CYTB gene,gene,14411,15551,1141,forward
+1tbs,KM201334,"1,000",CYTB start codon,start,14411,14413,3,forward
+1tbs,KM201334,"1,000",tRNA-Glu,tRNA,14338,14406,69,reverse
+1tbs,KM201334,"1,000",ND6 start codon,start,14335,14337,3,reverse
+1tbs,KM201334,"1,000",ND5 stop codon,stop,13817,13819,3,forward
+1tbs,KM201334,"1,000",ND6 gene,gene,13816,14337,522,reverse
+1tbs,KM201334,"1,000",ND6 stop codon,stop,13816,13818,3,reverse
+1tbs,KM201334,"1,000",ND5 gene,gene,11981,13819,1839,forward
+1tbs,KM201334,"1,000",ND5 start codon,start,11981,11983,3,forward
+1tbs,KM201334,"1,000",tRNA-Leu (2),tRNA,11908,11980,73,forward
+1tbs,KM201334,"1,000",tRNA-Ser (2),tRNA,11836,11903,68,forward
+1tbs,KM201334,"1,000",tRNA-His,tRNA,11764,11835,72,forward
+1tbs,KM201334,"1,000",ND4 stop codon,stop,11763,11763,1,forward
+1tbs,KM201334,"1,000",ND4L stop codon,stop,10387,10389,3,forward
+1tbs,KM201334,"1,000",ND4 gene,gene,10383,11763,1381,forward
+1tbs,KM201334,"1,000",ND4 start codon,start,10383,10385,3,forward
+1tbs,KM201334,"1,000",ND4L gene,gene,10093,10389,297,forward
+1tbs,KM201334,"1,000",ND4L start codon,start,10093,10095,3,forward
+1tbs,KM201334,"1,000",tRNA-Arg,tRNA,10023,10091,69,forward
+1tbs,KM201334,"1,000",ND3 stop codon,stop,10022,10022,1,forward
+1tbs,KM201334,"1,000",ND3 gene,gene,9674,10022,349,forward
+1tbs,KM201334,"1,000",ND3 start codon,start,9674,9676,3,forward
+1tbs,KM201334,"1,000",tRNA-Gly,tRNA,9604,9673,70,forward
+1tbs,KM201334,"1,000",COX3 stop codon,stop,9602,9603,2,forward
+1tbs,KM201334,"1,000",COX3 gene,gene,8819,9603,785,forward
+1tbs,KM201334,"1,000",COX3 start codon,start,8819,8821,3,forward
+1tbs,KM201334,"1,000",ATP8 stop codon,stop,8140,8142,3,forward
+1tbs,KM201334,"1,000",ATP6 gene,gene,8136,8819,684,forward
+1tbs,KM201334,"1,000",ATP6 start codon,start,8136,8138,3,forward
+1tbs,KM201334,"1,000",ATP8 gene,gene,7978,8142,165,forward
+1tbs,KM201334,"1,000",ATP8 start codon,start,7978,7980,3,forward
+1tbs,KM201334,"1,000",tRNA-Lys,tRNA,7902,7976,75,forward
+1tbs,KM201334,"1,000",COX2 stop codon,stop,7901,7901,1,forward
+1tbs,KM201334,"1,000",COX2 gene,gene,7211,7901,691,forward
+1tbs,KM201334,"1,000",COX2 start codon,start,7211,7213,3,forward
+1tbs,KM201334,"1,000",tRNA-Asp,tRNA,7133,7203,71,forward
+1tbs,KM201334,"1,000",tRNA-Ser (1),tRNA,7059,7129,71,reverse
+1tbs,KM201334,"1,000",COX1 stop codon,stop,7056,7058,3,forward
+1tbs,KM201334,"1,000",COX1 gene,gene,5508,7058,1551,forward
+1tbs,KM201334,"1,000",COX1 start codon,start,5508,5510,3,forward
+1tbs,KM201334,"1,000",tRNA-Tyr,tRNA,5437,5506,70,reverse
+1tbs,KM201334,"1,000",tRNA-Cys,tRNA,5370,5436,67,reverse
+1tbs,KM201334,"1,000",tRNA-Asn,tRNA,5261,5333,73,reverse
+1tbs,KM201334,"1,000",tRNA-Ala,tRNA,5190,5259,70,reverse
+1tbs,KM201334,"1,000",tRNA-Trp,tRNA,5119,5189,71,forward
+1tbs,KM201334,"1,000",ND2 stop codon,stop,5113,5113,1,forward
+1tbs,KM201334,"1,000",ND2 gene,gene,4074,5113,1040,forward
+1tbs,KM201334,"1,000",ND2 start codon,start,4074,4076,3,forward
+1tbs,KM201334,"1,000",tRNA-Met,tRNA,4005,4073,69,forward
+1tbs,KM201334,"1,000",tRNA-Gln,tRNA,3935,4005,71,reverse
+1tbs,KM201334,"1,000",tRNA-Ile,tRNA,3861,3935,75,forward
+1tbs,KM201334,"1,000",ND1 stop codon,stop,3858,3860,3,forward
+1tbs,KM201334,"1,000",ND1 gene,gene,2886,3860,975,forward
+1tbs,KM201334,"1,000",ND1 start codon,start,2886,2888,3,forward
+1tbs,KM201334,"1,000",tRNA-Leu (1),tRNA,2812,2885,74,forward
+1tbs,KM201334,"1,000",16S rRNA,rRNA,1093,2811,1719,forward
+1tbs,KM201334,"1,000",tRNA-Val,tRNA,1021,1092,72,forward
+1tbs,KM201334,"1,000",12S rRNA,rRNA,69,1020,952,forward
+1tbs,KM201334,"1,000",tRNA-Phe,tRNA,1,68,68,forward
+1tbs,KM201334,"1,000",TRE_control_R_2,primer_bind_reverse,16463,16485,23,reverse
+1tbs,KM201334,"1,000",TRE_tRNA_Tyr_F,primer_bind,5468,5487,20,forward
+1tbs,KM201334,"1,000",TRE_mid_COI_R,primer_bind_reverse,6310,6329,20,reverse
+1tbs,KM201334,"1,000",TRE_tRNA_Pro_F,primer_bind,15617,15639,23,forward
+1tbs,KM201334,"1,000",CR1,conserved_region,1,222,221,
+1tbs,KM201334,"1,000",CR2,conserved_region,224,669,445,
+1tbs,KM201334,"1,000",CR3,conserved_region,798,1213,424,
+1tbs,KM201334,"1,000",CR4,conserved_region,1218,1857,639,
+1tbs,KM201334,"1,000",CR5,conserved_region,1958,2232,274,
+1tbs,KM201334,"1,000",CR6,conserved_region,2329,2963,634,
+1tbs,KM201334,"1,000",CR7,conserved_region,3864,4059,195,
+1tbs,KM201334,"1,000",CR8,conserved_region,5145,5354,209,
+1tbs,KM201334,"1,000",CR9,conserved_region,5386,5849,436,
+1tbs,KM201334,"1,000",CR10,conserved_region,5851,6041,190,
+1tbs,KM201334,"1,000",CR11,conserved_region,6172,6551,379,
+1tbs,KM201334,"1,000",CR12,conserved_region,6823,6971,148,
+1tbs,KM201334,"1,000",CR13,conserved_region,6979,7381,402,
+1tbs,KM201334,"1,000",CR14,conserved_region,7647,7831,184,
+1tbs,KM201334,"1,000",CR15,conserved_region,7833,8118,285,
+1tbs,KM201334,"1,000",CR16,conserved_region,9081,9250,169,
+1tbs,KM201334,"1,000",CR17,conserved_region,9369,9719,350,
+1tbs,KM201334,"1,000",CR18,conserved_region,9918,10077,159,
+1tbs,KM201334,"1,000",CR19,conserved_region,10283,10434,151,
+1tbs,KM201334,"1,000",CR20,conserved_region,10507,10727,220,
+1tbs,KM201334,"1,000",CR21,conserved_region,11521,11717,196,
+1tbs,KM201334,"1,000",CR22,conserved_region,11719,12010,291,
+1tbs,KM201334,"1,000",CR23,conserved_region,12069,12289,220,
+1tbs,KM201334,"1,000",CR24,conserved_region,12408,12559,151,
+1tbs,KM201334,"1,000",CR25,conserved_region,14121,14272,151,
+1tbs,KM201334,"1,000",CR26,conserved_region,14353,14524,171,
+1tbs,KM201334,"1,000",CR27,conserved_region,15507,15703,196,
+1tbs,KM201334,"1,000",CR28,conserved_region,15738,16073,335,

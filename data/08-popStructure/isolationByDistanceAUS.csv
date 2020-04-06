@@ -1,0 +1,7 @@
+location,distance.km,genetic.distance,significance
+geraldtonAndPoisoncreek,1536.37,-0.01012,0.69369+-0.0385
+geraldtonAndAugusta1,685.81,-0.0041,0.50450+-0.0388
+geraldtonAndAugusta2,684.92,-0.01268,0.59459+-0.0529
+poisoncreekAndAugusta1,834.24,0.02397,0.04505+-0.0152
+poisoncreekAndAugusta2,833.35,-0.02586,0.93694+-0.0279
+augusta1andaugusta2,0.89,0.01747,0.50450+-0.0388

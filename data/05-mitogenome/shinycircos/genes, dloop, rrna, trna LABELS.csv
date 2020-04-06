@@ -1,0 +1,39 @@
+chr,start,end,label
+mitochondria,15693,16578,D-loop
+mitochondria,15622,15692,tRNA-Pro
+mitochondria,15551,15622,tRNA-Thr
+mitochondria,14410,15550,CYTB gene
+mitochondria,14337,14405,tRNA-Glu
+mitochondria,13815,14336,ND6 gene
+mitochondria,11980,13818,ND5 gene
+mitochondria,11907,11979,tRNA-Leu
+mitochondria,11835,11902,tRNA-Ser
+mitochondria,11763,11834,tRNA-His
+mitochondria,10382,11762,ND4 gene
+mitochondria,10092,10388,ND4L gene
+mitochondria,10022,10090,tRNA-Arg
+mitochondria,9673,10021,ND3 gene
+mitochondria,9603,9672,tRNA-Gly
+mitochondria,8818,9602,COX3 gene
+mitochondria,8135,8818,ATP6 gene
+mitochondria,7977,8141,ATP8 gene
+mitochondria,7901,7975,tRNA-Lys
+mitochondria,7210,7900,COX2 gene
+mitochondria,7132,7202,tRNA-Asp
+mitochondria,7058,7128,tRNA-Ser
+mitochondria,5507,7057,COX1 gene
+mitochondria,5436,5505,tRNA-Tyr
+mitochondria,5369,5435,tRNA-Cys
+mitochondria,5260,5332,tRNA-Asn
+mitochondria,5189,5258,tRNA-Ala
+mitochondria,5118,5188,tRNA-Trp
+mitochondria,4073,5112,ND2 gene
+mitochondria,4004,4072,tRNA-Met
+mitochondria,3934,4004,tRNA-Gln
+mitochondria,3860,3934,tRNA-Ile
+mitochondria,2885,3859,ND1 gene
+mitochondria,2811,2884,tRNA-Leu
+mitochondria,1092,2810,16S rRNA
+mitochondria,1020,1091,tRNA-Val
+mitochondria,69,1019,12S rRNA
+mitochondria,1,68,tRNA-Phe

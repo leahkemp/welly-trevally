@@ -1,0 +1,3 @@
+target,direction,name,sequence,GCcontent
+COI gene,Forward,TRE_tRNA_Tyr_F,GGG CTA CAA TCC ACC GCT TA,55%
+COI gene,Reverse,TRE_mid_COI_R,ACA CCA TTC CCA TGT ACC CG,55%
