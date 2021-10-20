@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/253703635.svg)](https://zenodo.org/badge/latestdoi/253703635)
+
 # welly-trevally
 
 This welly-trevally repository contains contains all the files necessary to build this thesis into a pdf file (the actual physical thesis). Here I will give an overview of some of the important aspects of how it was coded and how to built it to a pdf.
